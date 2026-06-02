@@ -8,19 +8,17 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 alwaysZero on
-    track TDP_kd_forward
-    parent TDP_kd_Overlay
-    type bigWig
-    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721355dc40924a5353268/display?to_ext=bigwig
-    shortLabel TDP_kd Forward
-    color 255,0,0
-    
-    track TDP_kd_reverse
-    parent TDP_kd_Overlay
-    type bigWig
-    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135255def1aecb2d082/display?to_ext=bigwig
-    shortLabel TDP_kd Reverse
-    color 0,0,255
+track TDP_kd_forward
+parent TDP_kd_Overlay
+type bigWig https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721355dc40924a5353268/display?to_ext=bigwig
+shortLabel TDP_kd Forward
+color 255,0,0
+   
+track TDP_kd_reverse
+parent TDP_kd_Overlay
+type bigWig https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135255def1aecb2d082/display?to_ext=bigwig
+shortLabel TDP_kd Reverse
+color 0,0,255
 # ── Control F + R ──────────────────────────────────────────
 track Control_Overlay
 container multiWig
@@ -31,19 +29,17 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 alwaysZero on
+track Control_forward
+parent Control_Overlay
+type bigWig https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721356bfc26f334396a17/display?to_ext=bigwig
+shortLabel Control Forward
+color 255,0,0
 
-    track Control_forward
-    parent Control_Overlay
-    type bigWig https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721356bfc26f334396a17/display?to_ext=bigwig
-    shortLabel Control Forward
-    color 255,0,0
-
-    track Control_reverse
-    parent Control_Overlay
-    type bigWig
-    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135af5a62fe89864a08/display?to_ext=bigwig
-    shortLabel Control Reverse
-    color 0,0,255
+track Control_reverse
+parent Control_Overlay
+type bigWig https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135af5a62fe89864a08/display?to_ext=bigwig
+shortLabel Control Reverse
+color 0,0,255
 
 # ── Control_CTR F + R ──────────────────────────────────────
 track Control_CTR_Overlay
@@ -55,20 +51,17 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 alwaysZero on
+track Control_CTR_forward
+parent Control_CTR_Overlay
+type bigWig https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135dcd03789fd46e84c/display?to_ext=bigwig
+shortLabel Control_CTR Forward
+color 255,0,0
 
-    track Control_CTR_forward
-    parent Control_CTR_Overlay
-    type bigWig
-    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135dcd03789fd46e84c/display?to_ext=bigwig
-    shortLabel Control_CTR Forward
-    color 255,0,0
-
-    track Control_CTR_reverse
-    parent Control_CTR_Overlay
-    type bigWig
-    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135cdebfb4be0c8b6d1/display?to_ext=bigwig
-    shortLabel Control_CTR Reverse
-    color 0,0,255
+track Control_CTR_reverse
+parent Control_CTR_Overlay
+type bigWig https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135cdebfb4be0c8b6d1/display?to_ext=bigwig
+shortLabel Control_CTR Reverse
+color 0,0,255
 
 # ── TDP_kd_CTR F + R ───────────────────────────────────────
 track TDP_kd_CTR_Overlay
@@ -80,18 +73,14 @@ visibility full
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 alwaysZero on
+track TDP_kd_CTR_forward
+parent TDP_kd_CTR_Overlay
+type bigWig https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135ffeb1a52d05ef616/display?to_ext=bigwig
+shortLabel TDP_kd_CTR Forward
+color 255,0,0
 
-    track TDP_kd_CTR_forward
-    parent TDP_kd_CTR_Overlay
-    type bigWig
-    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135ffeb1a52d05ef616/display?to_ext=bigwig
-    shortLabel TDP_kd_CTR Forward
-    color 255,0,0
-
-    track TDP_kd_CTR_reverse
-    parent TDP_kd_CTR_Overlay
-    type bigWig
-    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135f748126a69320d3e/display?to_ext=bigwig
-    shortLabel TDP_kd_CTR Reverse
-    color 0,0,255
- 
+track TDP_kd_CTR_reverse
+parent TDP_kd_CTR_Overlay
+type bigWig https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135f748126a69320d3e/display?to_ext=bigwig
+shortLabel TDP_kd_CTR Reverse
+color 0,0,255
