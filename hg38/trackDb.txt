@@ -1,95 +1,259 @@
-track TDP_kd_Overlay
-container multiWig
-shortLabel TDP_kd F+R
-longLabel TDP_kd Forward and Reverse Strand Combined
+# ── PLUS STRAND ──────────────────────────────────────────
+
+track Control_Plus_Super
+superTrack on show
+shortLabel Control Plus
+longLabel Control Replicates Plus Strand
+
+track Control_Plus_Rep1
+parent Control_Plus_Super
 type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a47213571eb9f3f93ce016e/display?to_ext=bigwig
+shortLabel Cntl Plus Rep1
+longLabel ACru_Cntl1 Plus Strand
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-alwaysZero on
-
-track TDP_kd_forward
-parent TDP_kd_Overlay
-type bigWig
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721355dc40924a5353268/display?to_ext=bigwig
-shortLabel TDP_kd Forward
-color 255,0,0
-
-track TDP_kd_reverse
-parent TDP_kd_Overlay
-type bigWig
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135255def1aecb2d082/display?to_ext=bigwig
-shortLabel TDP_kd Reverse
 color 0,0,255
 
-track Control_Overlay
-container multiWig
-shortLabel Control F+R
-longLabel Control Forward and Reverse Strand Combined
+track Control_Plus_Rep2
+parent Control_Plus_Super
 type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721359cd46d33cc13099d/display?to_ext=bigwig
+shortLabel Cntl Plus Rep2
+longLabel ACru_Cntl2 Plus Strand
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-alwaysZero on
-
-track Control_forward
-parent Control_Overlay
-type bigWig
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721356bfc26f334396a17/display?to_ext=bigwig
-shortLabel Control Forward
-color 255,0,0
-
-track Control_reverse
-parent Control_Overlay
-type bigWig
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135af5a62fe89864a08/display?to_ext=bigwig
-shortLabel Control Reverse
 color 0,0,255
 
-track Control_CTR_Overlay
-container multiWig
-shortLabel Control_CTR F+R
-longLabel Control_CTR Forward and Reverse Strand Combined
+track Control_Plus_Rep3
+parent Control_Plus_Super
 type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135944eb35314f308f3/display?to_ext=bigwig
+shortLabel Cntl Plus Rep3
+longLabel ACru_Cntl3 Plus Strand
 visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-alwaysZero on
-
-track Control_CTR_forward
-parent Control_CTR_Overlay
-type bigWig
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135dcd03789fd46e84c/display?to_ext=bigwig
-shortLabel Control_CTR Forward
-color 255,0,0
-
-track Control_CTR_reverse
-parent Control_CTR_Overlay
-type bigWig
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135cdebfb4be0c8b6d1/display?to_ext=bigwig
-shortLabel Control_CTR Reverse
 color 0,0,255
 
-track TDP_kd_CTR_Overlay
-container multiWig
-shortLabel TDP_kd_CTR F+R
-longLabel TDP_kd_CTR Forward and Reverse Strand Combined
-type bigWig
-visibility full
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-alwaysZero on
+track TDP_kd_Plus_Super
+superTrack on show
+shortLabel TDP_kd Plus
+longLabel TDP_kd Replicates Plus Strand
 
-track TDP_kd_CTR_forward
-parent TDP_kd_CTR_Overlay
+track TDP_kd_Plus_Rep1
+parent TDP_kd_Plus_Super
 type bigWig
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135ffeb1a52d05ef616/display?to_ext=bigwig
-shortLabel TDP_kd_CTR Forward
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721351506f55a37edbbc8/display?to_ext=bigwig
+shortLabel TDPkd Plus Rep1
+longLabel ACru_TDPkd1 Plus Strand
+visibility full
 color 255,0,0
 
-track TDP_kd_CTR_reverse
-parent TDP_kd_CTR_Overlay
+track TDP_kd_Plus_Rep2
+parent TDP_kd_Plus_Super
 type bigWig
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135f748126a69320d3e/display?to_ext=bigwig
-shortLabel TDP_kd_CTR Reverse
-color 0,0,255
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a47213502c131b5b051d6f8/display?to_ext=bigwig
+shortLabel TDPkd Plus Rep2
+longLabel ACru_TDPkd2 Plus Strand
+visibility full
+color 255,0,0
+
+track TDP_kd_Plus_Rep3
+parent TDP_kd_Plus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721358f98ed92b6075ff8/display?to_ext=bigwig
+shortLabel TDPkd Plus Rep3
+longLabel ACru_TDPkd3 Plus Strand
+visibility full
+color 255,0,0
+
+track Control_CTR_Plus_Super
+superTrack on show
+shortLabel Control_CTR Plus
+longLabel Control_CTR Replicates Plus Strand
+
+track Control_CTR_Plus_Rep1
+parent Control_CTR_Plus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721357267c29693a0a592/display?to_ext=bigwig
+shortLabel Cntl_CTR Plus Rep1
+longLabel ACru_Cntl_CTR1 Plus Strand
+visibility full
+color 0,128,0
+
+track Control_CTR_Plus_Rep2
+parent Control_CTR_Plus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135206895735ffe0ddf/display?to_ext=bigwig
+shortLabel Cntl_CTR Plus Rep2
+longLabel ACru_Cntl_CTR2 Plus Strand
+visibility full
+color 0,128,0
+
+track Control_CTR_Plus_Rep3
+parent Control_CTR_Plus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721351a9a89c14c54bb0b/display?to_ext=bigwig
+shortLabel Cntl_CTR Plus Rep3
+longLabel ACru_Cntl_CTR3 Plus Strand
+visibility full
+color 0,128,0
+
+track TDP_kd_CTR_Plus_Super
+superTrack on show
+shortLabel TDP_kd_CTR Plus
+longLabel TDP_kd_CTR Replicates Plus Strand
+
+track TDP_kd_CTR_Plus_Rep1
+parent TDP_kd_CTR_Plus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135ac7ae726c13bafe5/display?to_ext=bigwig
+shortLabel TDPkd_CTR Plus Rep1
+longLabel ACru_TDPkd_CTR1 Plus Strand
+visibility full
+color 255,165,0
+
+track TDP_kd_CTR_Plus_Rep2
+parent TDP_kd_CTR_Plus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135e61ec958e2001d80/display?to_ext=bigwig
+shortLabel TDPkd_CTR Plus Rep2
+longLabel ACru_TDPkd_CTR2 Plus Strand
+visibility full
+color 255,165,0
+
+track TDP_kd_CTR_Plus_Rep3
+parent TDP_kd_CTR_Plus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a47213529d4035c7afeb025/display?to_ext=bigwig
+shortLabel TDPkd_CTR Plus Rep3
+longLabel ACru_TDPkd_CTR3 Plus Strand
+visibility full
+color 255,165,0
+
+# ── MINUS STRAND ──────────────────────────────────────────
+
+track Control_Minus_Super
+superTrack on show
+shortLabel Control Minus
+longLabel Control Replicates Minus Strand
+
+track Control_Minus_Rep1
+parent Control_Minus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135ae33c7e9272a989e/display?to_ext=bigwig
+shortLabel Cntl Minus Rep1
+longLabel ACru_Cntl1 Minus Strand
+visibility full
+color 0,0,139
+
+track Control_Minus_Rep2
+parent Control_Minus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721359b356ab5cacbd401/display?to_ext=bigwig
+shortLabel Cntl Minus Rep2
+longLabel ACru_Cntl2 Minus Strand
+visibility full
+color 0,0,139
+
+track Control_Minus_Rep3
+parent Control_Minus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135fcf1f8abfa2b5f3e/display?to_ext=bigwig
+shortLabel Cntl Minus Rep3
+longLabel ACru_Cntl3 Minus Strand
+visibility full
+color 0,0,139
+
+track TDP_kd_Minus_Super
+superTrack on show
+shortLabel TDP_kd Minus
+longLabel TDP_kd Replicates Minus Strand
+
+track TDP_kd_Minus_Rep1
+parent TDP_kd_Minus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721350632380167723fbb/display?to_ext=bigwig
+shortLabel TDPkd Minus Rep1
+longLabel ACru_TDPkd1 Minus Strand
+visibility full
+color 139,0,0
+
+track TDP_kd_Minus_Rep2
+parent TDP_kd_Minus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135ac04c0a987baa739/display?to_ext=bigwig
+shortLabel TDPkd Minus Rep2
+longLabel ACru_TDPkd2 Minus Strand
+visibility full
+color 139,0,0
+
+track TDP_kd_Minus_Rep3
+parent TDP_kd_Minus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721353347fc35781cd707/display?to_ext=bigwig
+shortLabel TDPkd Minus Rep3
+longLabel ACru_TDPkd3 Minus Strand
+visibility full
+color 139,0,0
+
+track Control_CTR_Minus_Super
+superTrack on show
+shortLabel Control_CTR Minus
+longLabel Control_CTR Replicates Minus Strand
+
+track Control_CTR_Minus_Rep1
+parent Control_CTR_Minus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135de2dac37a255dfef/display?to_ext=bigwig
+shortLabel Cntl_CTR Minus Rep1
+longLabel ACru_Cntl_CTR1 Minus Strand
+visibility full
+color 0,100,0
+
+track Control_CTR_Minus_Rep2
+parent Control_CTR_Minus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721355b73205f32d1891c/display?to_ext=bigwig
+shortLabel Cntl_CTR Minus Rep2
+longLabel ACru_Cntl_CTR2 Minus Strand
+visibility full
+color 0,100,0
+
+track Control_CTR_Minus_Rep3
+parent Control_CTR_Minus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135e0a42abcb0fd693d/display?to_ext=bigwig
+shortLabel Cntl_CTR Minus Rep3
+longLabel ACru_Cntl_CTR3 Minus Strand
+visibility full
+color 0,100,0
+
+track TDP_kd_CTR_Minus_Super
+superTrack on show
+shortLabel TDP_kd_CTR Minus
+longLabel TDP_kd_CTR Replicates Minus Strand
+
+track TDP_kd_CTR_Minus_Rep1
+parent TDP_kd_CTR_Minus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135c850995df8f50a76/display?to_ext=bigwig
+shortLabel TDPkd_CTR Minus Rep1
+longLabel ACru_TDPkd_CTR1 Minus Strand
+visibility full
+color 200,100,0
+
+track TDP_kd_CTR_Minus_Rep2
+parent TDP_kd_CTR_Minus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135ba24fd62d915a0cf/display?to_ext=bigwig
+shortLabel TDPkd_CTR Minus Rep2
+longLabel ACru_TDPkd_CTR2 Minus Strand
+visibility full
+color 200,100,0
+
+track TDP_kd_CTR_Minus_Rep3
+parent TDP_kd_CTR_Minus_Super
+type bigWig
+bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135090e9fd0cdb1b256/display?to_ext=bigwig
+shortLabel TDPkd_CTR Minus Rep3
+longLabel ACru_TDPkd_CTR3 Minus Strand
+visibility full
+color 200,100,0
