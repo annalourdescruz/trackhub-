@@ -3,114 +3,114 @@ superTrack on show
 shortLabel TDP-43 RNA-seq
 longLabel TDP-43 RNA-seq Replicates
 
-track Cntl
-container multiWig
-shortLabel Control
-longLabel Control Condition
-type bigWig
-visibility full
+    track Cntl
+    container multiWig
+    shortLabel Control
+    longLabel Control Condition
+    type bigWig
+    visibility full
     
-track Cntl_rep1
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a47213543edff26e70978ba/display?to_ext=bigwig
-shortLabel Cntl Rep1
-longLabel Control Replicate 1
-type bigWig
-color 0,0,255
-
-track Cntl_rep2
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721354a59ee758423e5c9/display?to_ext=bigwig
-shortLabel Cntl Rep2
-longLabel Control Replicate 2
-type bigWig
-color 0,100,255
+        track Cntl_rep1
+        bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a47213543edff26e70978ba/display?to_ext=bigwig
+        shortLabel Cntl Rep1
+        longLabel Control Replicate 1
+        type bigWig
+        color 0,0,255
         
-track Cntl_rep3
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135c20493ea02a6509a/display?to_ext=bigwig
-shortLabel Cntl Rep3
-longLabel Control Replicate 3
-type bigWig
-color 0,200,255
+        track Cntl_rep2
+        bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721354a59ee758423e5c9/display?to_ext=bigwig
+        shortLabel Cntl Rep2
+        longLabel Control Replicate 2
+        type bigWig
+        color 0,100,255
+        
+        track Cntl_rep3
+        bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135c20493ea02a6509a/display?to_ext=bigwig
+        shortLabel Cntl Rep3
+        longLabel Control Replicate 3
+        type bigWig
+        color 0,200,255
 
-track Cntl_CTR
-container multiWig
-shortLabel Control + CTR
-longLabel Control + CTR Treatment
-type bigWig
-visibility full
+    track Cntl_CTR
+    container multiWig
+    shortLabel Control + CTR
+    longLabel Control + CTR Treatment
+    type bigWig
+    visibility full
     
-track Cntl_CTR_rep1
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721355434b2318bb831b6/display?to_ext=bigwig
-shortLabel Cntl+CTR Rep1
-longLabel Control + CTR Replicate 1
-type bigWig
-color 0,255,0
+        track Cntl_CTR_rep1
+        bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721355434b2318bb831b6/display?to_ext=bigwig
+        shortLabel Cntl+CTR Rep1
+        longLabel Control + CTR Replicate 1
+        type bigWig
+        color 0,255,0
         
-track Cntl_CTR_rep2
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721357b4d8b99eb67b1c5/display?to_ext=bigwig
-shortLabel Cntl+CTR Rep2
-longLabel Control + CTR Replicate 2
-type bigWig
-color 100,255,0
+        track Cntl_CTR_rep2
+        bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721357b4d8b99eb67b1c5/display?to_ext=bigwig
+        shortLabel Cntl+CTR Rep2
+        longLabel Control + CTR Replicate 2
+        type bigWig
+        color 100,255,0
         
-track Cntl_CTR_rep3
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135841af75c8d237165/display?to_ext=bigwig
-shortLabel Cntl+CTR Rep3
-longLabel Control + CTR Replicate 3
-type bigWig
-color 200,255,0
+        track Cntl_CTR_rep3
+        bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135841af75c8d237165/display?to_ext=bigwig
+        shortLabel Cntl+CTR Rep3
+        longLabel Control + CTR Replicate 3
+        type bigWig
+        color 200,255,0
 
-track TDPkd
-container multiWig
-shortLabel TDP-43 KD
-longLabel TDP-43 Knockdown
-type bigWig
-visibility full
+    track TDPkd
+    container multiWig
+    shortLabel TDP-43 KD
+    longLabel TDP-43 Knockdown
+    type bigWig
+    visibility full
     
-track TDPkd_rep1
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135d720d66669a4bab5/display?to_ext=bigwig
-shortLabel TDPkd Rep1
-longLabel TDP-43 KD Replicate 1
-type bigWig
-color 255,0,0
+        track TDPkd_rep1
+        bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135d720d66669a4bab5/display?to_ext=bigwig
+        shortLabel TDPkd Rep1
+        longLabel TDP-43 KD Replicate 1
+        type bigWig
+        color 255,0,0
         
-track TDPkd_rep2
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a47213511d1b4170038a942/display?to_ext=bigwig
-shortLabel TDPkd Rep2
-longLabel TDP-43 KD Replicate 2
-type bigWig
-color 255,100,0
+        track TDPkd_rep2
+        bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a47213511d1b4170038a942/display?to_ext=bigwig
+        shortLabel TDPkd Rep2
+        longLabel TDP-43 KD Replicate 2
+        type bigWig
+        color 255,100,0
         
-track TDPkd_rep3
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135b7889470be7509eb/display?to_ext=bigwig
-shortLabel TDPkd Rep3
-longLabel TDP-43 KD Replicate 3
-type bigWig
-color 255,200,0
+        track TDPkd_rep3
+        bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135b7889470be7509eb/display?to_ext=bigwig
+        shortLabel TDPkd Rep3
+        longLabel TDP-43 KD Replicate 3
+        type bigWig
+        color 255,200,0
 
-track TDPkd_CTR
-container multiWig
-shortLabel TDP-43 KD + CTR
-longLabel TDP-43 KD + CTR Treatment
-type bigWig
-visibility full
+    track TDPkd_CTR
+    container multiWig
+    shortLabel TDP-43 KD + CTR
+    longLabel TDP-43 KD + CTR Treatment
+    type bigWig
+    visibility full
     
-track TDPkd_CTR_rep1
-bigDataUrl ACru_TDPkd_CTR1_S4_L005.all.bw
-shortLabel https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721359c3afe8e8b6aa640/display?to_ext=bigwig
-longLabel TDP-43 KD + CTR Replicate 1
-type bigWig
-color 255,0,255
+        track TDPkd_CTR_rep1
+        bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721359c3afe8e8b6aa640/display?to_ext=bigwig
+        shortLabel TDPkd+CTR Rep1
+        longLabel TDP-43 KD + CTR Replicate 1
+        type bigWig
+        color 255,0,255
         
-track TDPkd_CTR_rep2
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721351942f2aae2fae7a8/display?to_ext=bigwig
-shortLabel TDPkd+CTR Rep2
-longLabel TDP-43 KD + CTR Replicate 2
-type bigWig
-color 255,100,255
+        track TDPkd_CTR_rep2
+        bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721351942f2aae2fae7a8/display?to_ext=bigwig
+        shortLabel TDPkd+CTR Rep2
+        longLabel TDP-43 KD + CTR Replicate 2
+        type bigWig
+        color 255,100,255
         
-track TDPkd_CTR_rep3
-bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a47213508f1cdd0ce1c2bc4/display?to_ext=bigwig
-shortLabel TDPkd+CTR Rep3
-longLabel TDP-43 KD + CTR Replicate 3
-type bigWig
-color 255,200,255
+        track TDPkd_CTR_rep3
+        bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a47213508f1cdd0ce1c2bc4/display?to_ext=bigwig
+        shortLabel TDPkd+CTR Rep3
+        longLabel TDP-43 KD + CTR Replicate 3
+        type bigWig
+        color 255,200,255
