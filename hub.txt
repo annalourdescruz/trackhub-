@@ -1,5 +1,5 @@
 hub myHub
 shortLabel My RNA Tracks
-longLabel Forward and Reverse Strand Tracks
+longLabel RNA seq Strand Tracks
 genomesFile genomes.txt
 email acruz36@jh.edu
